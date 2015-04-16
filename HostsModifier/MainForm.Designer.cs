@@ -57,7 +57,7 @@ namespace HostsModifier
             // 
             this.panelUAC.Controls.Add(this.lbUAC);
             this.panelUAC.Controls.Add(this.btnStartWithAdmin);
-            this.panelUAC.Location = new System.Drawing.Point(168, 260);
+            this.panelUAC.Location = new System.Drawing.Point(297, 170);
             this.panelUAC.Name = "panelUAC";
             this.panelUAC.Size = new System.Drawing.Size(346, 254);
             this.panelUAC.TabIndex = 6;
@@ -84,7 +84,7 @@ namespace HostsModifier
             this.btnStartWithAdmin.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btnStartWithAdmin.Location = new System.Drawing.Point(14, 95);
             this.btnStartWithAdmin.Name = "btnStartWithAdmin";
-            this.btnStartWithAdmin.Size = new System.Drawing.Size(322, 41);
+            this.btnStartWithAdmin.Size = new System.Drawing.Size(322, 114);
             this.btnStartWithAdmin.TabIndex = 0;
             this.btnStartWithAdmin.Text = "以管理员方式重新运行";
             this.btnStartWithAdmin.UseVisualStyleBackColor = true;

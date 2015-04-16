@@ -71,9 +71,9 @@ namespace HostsModifier
                 {
                     this.Text += "(管理员)";
                 }
-            }
 
-            MakeWriteable(_path);
+                MakeWriteable(_path);
+            }
         }
 
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
