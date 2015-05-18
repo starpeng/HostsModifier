@@ -161,6 +161,7 @@ namespace HostsModifier
                 {
                     try
                     {
+                        this.SafeInvoke(() => { this.btnUpdate.Text = "更新到最新"; });
                         _thread.Abort();
                     }
                     catch { }
