@@ -32,7 +32,8 @@ namespace HostsModifier
 {
     public partial class MainForm : Form
     {
-        private static String _url = "https://hosts-smounives.rhcloud.com/hosts";
+        //private static String _url = "https://hosts-smounives.rhcloud.com/hosts";
+        private static String _url = "https://raw.githubusercontent.com/racaljk/hosts/master/hosts";
         private static String _path = "C:\\Windows\\System32\\drivers\\etc\\hosts";
         private Thread _thread = null;
         private System.Timers.Timer _timer = new System.Timers.Timer(40 * 1000);
